@@ -2,9 +2,8 @@ body {
     background: rgb(227, 227, 227);
     color: rgba(0, 0, 0, 0.704);
     font-size: 16px;
-    font-weight: normal;
+    font-weight: bold;
     font-family: serif;
-
 }
 
 .avatar {

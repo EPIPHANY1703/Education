@@ -26,7 +26,8 @@ h3 {
 
 .kinds {
     display: flex;
-    align-items: stretch;
+    gap: 20px;
+    justify-content: space-between;
 }
 
 .item {

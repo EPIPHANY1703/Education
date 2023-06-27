@@ -28,6 +28,8 @@ h3 {
     display: flex;
     gap: 20px;
     justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .item {
@@ -36,6 +38,7 @@ h3 {
     margin-bottom: 50px;
     padding: 30px;
     border-radius: 28px;
+    width: 500px;
 
 }
 

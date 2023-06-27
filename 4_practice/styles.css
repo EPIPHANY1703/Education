@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sport {
+    color: white;
+    background: rgb(165, 84, 84);
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    font-size: 1.8rem;
+}
+
+.general {
+    background: rgb(241, 241, 241);
+}
+
+h3 {
+    display: flex;
+    padding: 25px 10px;
+    text-align: center;
+}
+
+.kinds {
+    display: flex;
+    align-items: stretch;
+}
+
+.item {
+    border: 5px solid #d19595;
+    margin: 10px;
+    margin-bottom: 50px;
+    padding: 30px;
+    border-radius: 28px;
+
+}
+
+.end {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(165, 84, 84);
+    color: white;
+    padding: 25px;
+    font-size: 1.3rem;
+}

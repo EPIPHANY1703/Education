@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 50px;
+    font-size: 25px;
+    font-family: 'Raleway', Arial, sans-serif;
+    color: rgb(227, 227, 227);
+}
+
+a:link,
+a:visited {
+    color: rgb(227, 227, 227);
+    text-decoration: none;
+
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.logo img {
+    width: 250px;
+}
+
+.head {
+    width: 100%;
+    padding: 25px 90px 25px 35px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    background: #3d8685;
+
+}
+
+.menu {
+    margin-top: 15px;
+}
+
+.menu>li {
+    margin-right: 100px;
+    display: inline;
+}
+
+.menu>li:last-of-type {
+    margin-right: 0;
+}
+
+.dropdown:hover .social {
+    display: flex;
+    flex-direction: column;
+    background: #3d8685;
+    border-radius: 5px;
+    padding-top: 60px;
+    position: absolute;
+    top: -25px;
+    left: -30px;
+}
+
+.social li {
+    list-style: none;
+    border-bottom: 1px solid #beac09;
+    padding: 0 40px 20px 20px;
+    margin: 10px;
+}
+
+.social li:last-of-type {
+    border-bottom: none;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown>span {
+    z-index: 2;
+    position: relative;
+    cursor: pointer;
+}
+
+
+
+.social {
+    display: none;
+    z-index: 1;
+    padding-right: 100px;
+}
+
+.generalpic img {
+    width: 100%;
+    height: 800px;
+}
+
+.history {
+    margin: 100px 50px;
+    padding: 30px 60px 30px 60px;
+    text-align: center;
+    font-size: 20px;
+    background-color: #3d8685;
+    border-radius: 50px;
+}
+
+.history h1 {
+    color: gold;
+}
+
+.history p {
+    padding: 10px;
+}
+
+.fon {
+    margin: 50px;
+    padding: 20px;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 10px;
+    border-color: #3d8685
+}
+
+.product {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    color: gold;
+
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 50px;
+
+}
+
+.items img {
+    width: 300px;
+
+}
+
+.items p {
+    text-align: center;
+    font-size: 18px;
+    color: rgb(97, 97, 97);
+    text-decoration: underline;
+
+}
+
+.legend img {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+}
+
+.legend {
+    display: flex;
+    position: relative;
+    margin: 50px 190px;
+    border-style: dashed;
+    border-color: #3d8685;
+    border-width: 5px;
+
+}
+
+.legend img {
+    width: 500px;
+    height: 410px;
+    border-radius: 15px;
+    padding: 25px;
+}
+
+.legend p {
+    padding: 30px 0 45px 20px;
+    color: rgb(164, 146, 40);
+}
+
+.end {
+    margin: 100px 0 0 0;
+    padding: 20px 0 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #3d8685;
+}

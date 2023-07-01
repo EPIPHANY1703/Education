@@ -4,8 +4,11 @@
     box-sizing: border-box;
 }
 
+.page {
+    width: 1440px;
+}
+
 body {
-    height: 50px;
     font-size: 25px;
     font-family: 'Raleway', Arial, sans-serif;
     color: rgb(227, 227, 227);

@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.header {
+
+    margin: 0 auto;
+}
+
+.tab {
+    margin-bottom: 20px;
+    padding: 40px;
+    background-color: blue;
+    color: white;
+    font-size: 35px;
+}
+
+
+
+.line {
+    margin: 10px 50px 10px 100px;
+
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    grid-template-columns: repeat(2, 1fr);
+
+
+
+}
+
+.table {
+    border-color: black;
+    margin: 20px;
+    padding: 15px;
+    border-style: solid;
+    border-width: 5px;
+    font-size: 30px;
+}
+
+.end {
+    margin-top: 20px;
+    padding: 20px 0 20px 40px;
+    background-color: blue;
+    color: white;
+    font-size: 35px;
+}
+
+@media only screen and (max-width: 400px) {
+    .line {
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        font-weight: 100;
+    }
+}

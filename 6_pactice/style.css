@@ -2,47 +2,48 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
-.header {
-
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     margin: 0 auto;
 }
 
-.tab {
+header {
+    width: 100%;
     margin-bottom: 40px;
-    padding: 40px;
+    padding-left: 40px;
     background-color: blue;
     color: white;
     font-size: 35px;
 }
 
-
-
-.line {
-    margin: 10px 50px 10px 100px;
-
-    display: grid;
-    justify-content: center;
-    text-align: center;
-    grid-template-columns: repeat(2, 1fr);
-
-
-
+main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    column-gap: 20px;
 }
 
-.table {
+.block {
+    width: 500px;
+    height: 500px;
     border-color: black;
-
     margin: 20px;
     padding: 15px;
     border-style: solid;
     border-width: 5px;
     font-size: 80px;
+
 }
 
-.end {
+footer {
+    width: 100%;
     margin-top: 40px;
     padding: 20px 0 20px 40px;
     background-color: blue;
@@ -50,26 +51,20 @@
     font-size: 35px;
 }
 
-@media only screen and (max-width: 400px) {
-    .line {
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        margin-left: 5px;
-        margin-right: 5px;
+@media only screen and (max-width: 901px) {
+    .wrapper {
+        width: 1440px;
     }
+}
 
-    p {
-        font-size: 25px;
-        align-content: space-between;
+@media only screen and (max-width: 900px) {
+    .wrapper {
+        width: 860px;
     }
+}
 
-    .tab {
-        margin-bottom: 35px;
-        padding-bottom: 20px;
-    }
-
-    .end {
-        margin-top: 35px;
+@media only screen and (max-width: 380px) {
+    .wrapper {
+        width: 364px;
     }
 }

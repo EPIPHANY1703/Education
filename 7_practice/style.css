@@ -23,23 +23,18 @@ header {
 main {
     display: flex;
     justify-content: space-around;
-    height: 800px;
 
 }
 
 .table {
     width: 400px;
-    height: 720px;
+    height: max-content;
     border: 3px solid black;
     text-align: center;
     font-size: small;
     padding: 15px;
 
 }
-
-
-
-
 
 footer {
     width: 100%;
@@ -49,4 +44,24 @@ footer {
     background-color: rgb(58, 138, 134);
     color: white;
     font-size: 35px;
+}
+
+
+
+@media only screen and (max-width: 380px) {
+    .page {
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .page {
+        width: 845px;
+    }
+}
+
+@media only screen and (min-width: 901px) {
+    .page {
+        width: 1440px;
+    }
 }

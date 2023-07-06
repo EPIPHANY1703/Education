@@ -24,6 +24,7 @@ main {
     display: flex;
     justify-content: space-around;
 
+
 }
 
 .table {
@@ -46,8 +47,6 @@ footer {
     font-size: 35px;
 }
 
-
-
 @media only screen and (max-width: 380px) {
     .page {
         width: 200px;
@@ -57,11 +56,13 @@ footer {
 @media only screen and (max-width: 900px) {
     .page {
         width: 845px;
+
     }
 }
 
 @media only screen and (min-width: 901px) {
     .page {
         width: 1440px;
+
     }
 }

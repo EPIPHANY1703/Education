@@ -127,21 +127,22 @@ footer {
 }
 
 @media only screen and (max-width: 380px) {
-    .page {
+    body {
         width: 200px;
+
 
     }
 }
 
 @media only screen and (max-width: 900px) {
-    .page {
+    body {
         width: 845px;
 
     }
 }
 
 @media only screen and (min-width: 901px) {
-    .page {
+    body {
         width: 1440px;
 
     }

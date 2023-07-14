@@ -125,25 +125,3 @@ footer {
     font-size: 25px;
 
 }
-
-@media only screen and (max-width: 380px) {
-    body {
-        width: 200px;
-
-
-    }
-}
-
-@media only screen and (max-width: 900px) {
-    body {
-        width: 845px;
-
-    }
-}
-
-@media only screen and (min-width: 901px) {
-    body {
-        width: 1440px;
-
-    }
-}

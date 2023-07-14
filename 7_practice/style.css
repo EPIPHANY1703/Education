@@ -24,7 +24,6 @@ main {
     display: flex;
     justify-content: space-around;
 
-
 }
 
 .table {
@@ -50,6 +49,7 @@ footer {
 @media only screen and (max-width: 380px) {
     .page {
         width: 200px;
+
     }
 }
 

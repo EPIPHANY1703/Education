@@ -1,13 +1,19 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Courier New', Courier, monospace;
     box-sizing: border-box;
 
 }
 
 body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(128, 172, 130);
+}
+
+.container {
+    width: 1440px;
     height: auto;
+    margin: auto;
 }
 
 header {
@@ -52,17 +58,15 @@ a:hover {
 }
 
 main {
-    width: 1500px;
-    height: 1000px;
+    width: auto;
+    height: 1100px;
 
 }
 
-.background {
-    background-image: url(https://www.onlydomains.com/siteassets/onl/img/front/svg/spotlight/WebsiteBuilderTop.svg);
-    background-size: no-repeat;
-    background-size: cover;
+img {
     height: 700px;
-    width: 950px;
+    width: 900px;
+
 
 
 }
@@ -73,9 +77,9 @@ form {
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    left: 950px;
+    left: 850px;
     bottom: 450px;
-    width: 50%;
+    width: 40%;
     margin: 10px 30px 10px 10px;
     border-radius: 20px;
     border: 2px rgb(13, 13, 45) solid
@@ -94,8 +98,8 @@ form h1 {
     position: relative;
     display: flex;
     justify-content: center;
-    top: 100px;
-    right: 40px;
+    left: 900px;
+    top: 200px;
     font-size: 30px;
     color: rgb(233, 201, 20);
     width: 35%;
@@ -125,7 +129,6 @@ button {
 
 footer {
     height: 70px;
-    width: 100%;
     padding-top: 30px;
     background-color: rgb(255, 88, 80);
     display: flex;
@@ -143,70 +146,92 @@ footer {
 
 @media only screen and (max-width: 900px) {
     main {
-        width: 860px;
+        width: 700px;
     }
+
+    .menu {
+        margin-left: 100px;
+
+
+
+    }
+
+    img {
+        width: 750px;
+    }
+
+    form {
+
+        left: 600px
+    }
+
+    .discount {
+        left: 625px;
+    }
+
+    footer {
+        width: 1000px;
+    }
+
 }
 
 @media only screen and (max-width: 400px) {
     main {
-        width: 383px;
+        width: 390px;
 
 
     }
 
+
+
     .menu {
-        display: flex;
+
         justify-content: space-around;
-        font-size: 15px;
+        font-size: 14px;
         text-align: left;
+        margin-left: 30px;
+
     }
 
     .menu>li {
-        margin-right: 10px;
-        display: inline-flex
+        margin-right: 55px;
     }
 
-    body {
-        width: 750px;
 
 
 
-    }
 
-    .container {
-        width: 100%;
-    }
-
-    .background {
-        position: relative;
-        width: 500px;
-        height: 500px;
+    img {
+        width: 490px;
         background-position: center;
-        top: 400px;
-        left: 175px;
-        margin-bottom: 800px;
+        margin-bottom: 200px;
 
     }
 
     .discount {
 
-        position: relative;
+        left: 60px;
+        top: 100px;
+        width: 300px;
         justify-content: center;
-        top: 30px;
-        right: 250px;
-
-        font-size: 35px;
+        font-size: 30px;
+        margin: 0;
+        padding: 0;
+        border: 0;
 
     }
 
     form {
-        position: relative;
-        bottom: 200px;
-        left: 125px;
-        width: 500px;
+        bottom: 300px;
+        left: 35px;
+        width: 300px;
+        margin: 0 auto;
     }
 
     footer {
         font-size: 15px;
+        margin: 0 auto;
+        width: 500px;
+
     }
 }

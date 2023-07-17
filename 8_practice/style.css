@@ -11,9 +11,8 @@ body {
 }
 
 .container {
-    width: 1440px;
-    height: auto;
-    margin: auto;
+    width: auto;
+
 }
 
 header {
@@ -110,7 +109,7 @@ form h1 {
 
 input[type="text"],
 input[type="email"],
-input[type="mobile"] {
+input[type="tel"] {
     width: 150px;
     border: none;
     border-bottom: 1px solid rgb(13, 13, 45);

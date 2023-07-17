@@ -66,5 +66,6 @@ footer {
 @media only screen and (max-width: 380px) {
     .wrapper {
         width: 364px;
+        height: 1000px;
     }
 }
